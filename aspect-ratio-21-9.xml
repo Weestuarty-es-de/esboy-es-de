@@ -1,0 +1,53 @@
+<theme>
+    <view name="system, gamelist">
+       <!--<image name="scan">
+			<pos>0 0</pos>
+			<size>1 1</size>
+			<path>./scanline3.png</path>
+			<tile>true</tile>
+			<tileSize>0.1 0.1</tileSize>
+			<opacity>0.5</opacity>
+			<color>${mainColor}</color>
+			<zIndex>100</zIndex>
+		</image>-->
+        <helpsystem name="help">
+            <pos>0.05 0.94</pos>
+            <iconTextSpacing>0.00516</iconTextSpacing>
+        </helpsystem>
+       
+    </view>
+
+    <view name="system">
+        <carousel name="system_carousel">
+            <maxItemCount>6</maxItemCount>
+            <itemSize>0.156 0.367</itemSize>
+        </carousel>
+        <image name="arrowblock">
+            <size>0.023 0.047</size>
+        </image>
+        <image name="selection_bottom">
+            <pos>0.5 0.689</pos>
+            <size>0.16078571 0.003</size>
+        </image>
+        <image name="selection_top">
+            <pos>0.5 0.311</pos>
+            <size>0.16078571 0.003</size>
+        </image>
+        <image name="selection_left">
+            <pos>0.420 0.5</pos>
+            <size>0.00128571 0.381</size>
+        </image>
+        <image name="selection_right">
+            <pos>0.58 0.5</pos>
+            <size>0.00128571 0.381</size>
+        </image>
+    </view>
+
+    <view name="gamelist">
+        <badges name="md_badges">
+            <lines>2</lines>
+            <itemsPerLine>4</itemsPerLine>
+            <itemMargin>0.0028125 0.005</itemMargin>
+        </badges>
+    </view>
+</theme>

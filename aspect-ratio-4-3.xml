@@ -1,0 +1,72 @@
+<theme>
+    <view name="system, gamelist">
+        <helpsystem name="help">
+            <pos>0.05 0.94</pos>
+            <fontSize>${helpsize43}</fontSize>
+            <iconTextSpacing>0.0041666</iconTextSpacing>
+        </helpsystem>
+       
+    </view>
+
+    <view name="system">
+        <text name="emu">
+			
+			<fontSize>0.065</fontSize>
+		
+		</text>
+        <image name="logo">
+			<pos>${logopos}</pos>
+        </image>
+        <carousel name="system_carousel">
+
+            <maxItemCount>4</maxItemCount>
+            <itemSize>0.232 0.314</itemSize>
+        </carousel>
+        <image name="arrowblock">
+            <size>0.029 0.047</size>
+        </image>
+        <image name="selection_bottom">
+            <pos>0.5 0.6620</pos>
+            <size>0.24383125 0.003</size>
+        </image>
+        <image name="selection_top">
+            <pos>0.5 0.34</pos>
+            <size>0.24383125 0.003</size>
+        </image>
+        <image name="selection_left">
+            <pos>0.3792 0.5</pos>
+            <size>0.00253125 0.322</size>
+        </image>
+        <image name="selection_right">
+            <pos>0.6205 0.5</pos>
+            <size>0.00253125 0.322</size>
+        </image>
+    </view>
+
+    <view name="gamelist">
+        <text name="md_lbl_releasedate">
+			
+			<fontSize>0.03</fontSize>
+		</text>
+		<datetime name="md_releasedate">
+			
+			<fontSize>0.03</fontSize>
+		</datetime>
+        <text name="md_lbl_players">
+			
+			<fontSize>0.03</fontSize>
+			
+		</text>
+		<text name="md_players">
+			
+			<fontSize>0.03</fontSize>
+			
+		</text>
+        
+        <badges name="md_badges">
+            <lines>2</lines>
+            <itemsPerLine>4</itemsPerLine>
+            <itemMargin>0.005 0.00375</itemMargin>
+        </badges>
+    </view>
+</theme>

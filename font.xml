@@ -1,0 +1,58 @@
+<theme>
+
+    <variables>
+        <mainFont>./assets/fonts/data.ttf</mainFont>
+		<secondaryFont>./assets/fonts/bob.ttf</secondaryFont>
+    </variables>
+
+
+   
+        <fontSize name="medium">
+            <variables>
+                <logopos>0.26 0.3</logopos>
+                <logopos1610>0.26 0.3</logopos1610>
+               <sysSize>0.025</sysSize>
+               <sysTitle>0.05</sysTitle>
+               <sysLogo>0.04</sysLogo>
+               <helpSize>0.03</helpSize>
+               <helpsize43>0.0275</helpsize43>
+               <textlistsize>0.03</textlistsize>
+               <gamedescsize>0.025</gamedescsize>
+               <gamesyssize>0.04</gamesyssize>
+               <selectoffset>0.01</selectoffset>
+            </variables>
+        </fontSize>
+        <fontSize name="large">
+            <variables>
+               
+                <logopos>0.3 0.3</logopos>
+                <logopos1610>0.26 0.3</logopos1610>
+                <sysSize>0.03</sysSize>
+                <sysTitle>0.06</sysTitle>
+                <sysLogo>0.05</sysLogo>
+                <helpSize>0.03</helpSize>
+                <helpsize43>0.035</helpsize43>
+                <textlistsize>0.04</textlistsize>
+                <gamedescsize>0.0325</gamedescsize>
+                <gamesyssize>0.05</gamesyssize>
+                <selectoffset>0.015</selectoffset>
+            </variables>
+        </fontSize>
+
+        <fontSize name="x-large">
+            <variables>
+               <logopos>0.35 0.3</logopos>
+               <logopos1610>0.3 0.3</logopos1610>
+                <sysSize>0.035</sysSize>
+                <sysTitle>0.07</sysTitle>
+                <sysLogo>0.06</sysLogo>
+                <helpSize>0.04</helpSize>
+                <helpsize43>0.0325</helpsize43>
+                <textlistsize>0.05</textlistsize>
+                <gamedescsize>0.04</gamedescsize>
+                <gamesyssize>0.06</gamesyssize>
+                <selectoffset>0.025</selectoffset>
+            </variables>
+        </fontSize>
+   
+</theme>

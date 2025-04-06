@@ -32,9 +32,31 @@
 	</aspectRatio>
 
 	<view name="system, gamelist">
+	<systemstatus name="menustatus1">
+        <pos>0.91 0.0</pos>
+        <origin>1 0</origin>
+		<scope>menu</scope>
+		<height>0.0375</height>
+        <color>${mainColor}BB</color>
+		<fontPath>${mainFont}</fontPath>
+        <entries>all</entries>
+        </systemstatus>
+        <clock name="menuclock1">
+            <fontSize>0.035</fontSize>
+            <rotation>0</rotation>
+            <pos>0.92 0.0</pos>
+			<scope>menu</scope>
+            <size>0.05 0.04</size>
+            <origin>0 0</origin>
+			<fontPath>${mainFont}</fontPath>
+            <horizontalAlignment>right</horizontalAlignment>
+            <verticalAlignment>center</verticalAlignment>
+            <color>${mainColor}CC</color>
+        </clock>
    <systemstatus name="menustatus">
         <pos>0.94 0.07</pos>
         <origin>1 0</origin>
+		<scope>view</scope>
 		<height>0.0375</height>
         <color>${mainColor}BB</color>
 		<fontPath>${mainFont}</fontPath>
@@ -44,6 +66,7 @@
             <fontSize>0.035</fontSize>
             <rotation>0</rotation>
             <pos>0.94 0.11</pos>
+			<scope>view</scope>
             <size>0.05 0.04</size>
             <origin>1 0</origin>
 			<fontPath>${mainFont}</fontPath>

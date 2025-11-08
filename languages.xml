@@ -21,6 +21,8 @@
         <langLabelSystemSelect>System Select</langLabelSystemSelect>
         <langLabelSystem>System</langLabelSystem>
         <langLabelSystemLogo>System Logo</langLabelSystemLogo>
+        <langLabelGameSelection>Game Selection</langLabelGameSelection>
+        <langLabelGameSynopsis>Synopsis</langLabelGameSynopsis>
         <langLabelGF>Gaming Frontend</langLabelGF>
         <langLabelPower>Power On</langLabelPower>
         <langLabelPowerby>Powered By</langLabelPowerby>
@@ -78,6 +80,8 @@
             <langLabelSystemSelect>Selecció del sistema</langLabelSystemSelect>
             <langLabelSystem>Sistema</langLabelSystem>
             <langLabelSystemLogo>Logotip del sistema</langLabelSystemLogo>
+            <langLabelGameSelection>Selección de juego</langLabelGameSelection>
+            <langLabelGameSynopsis>Sinopsis</langLabelGameSynopsis>
             <langLabelGF>Interface de jocs</langLabelGF>
             <langLabelPower>Enceneu</langLabelPower>
             <langLabelPowerby>Funcionat per</langLabelPowerby>
